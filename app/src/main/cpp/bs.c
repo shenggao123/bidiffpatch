@@ -14,7 +14,7 @@ Java_com_example_lebronsn_bsdiffpatch_MainActivity_patch
     (*env)->ReleaseStringUTFChars(env,oldpath_, argv[1]);
     (*env)->ReleaseStringUTFChars(env,newpath_, argv[2]);
     (*env)->ReleaseStringUTFChars(env,patch_,argv[3]);
-    free(argv);
+//    free(argv);
     return 0;
 }
 
@@ -30,7 +30,7 @@ Java_com_example_lebronsn_bsdiffpatch_MainActivity_diff
     (*env)->ReleaseStringUTFChars(env,oldpath_, argv[1]);
     (*env)->ReleaseStringUTFChars(env,newpath_, argv[2]);
     (*env)->ReleaseStringUTFChars(env,patch_,argv[3]);
-    free(argv[0]);
-    free(argv);
+//    free(argv[0]);
+//    free(argv);
     return 0;
 }
